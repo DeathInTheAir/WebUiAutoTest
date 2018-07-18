@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page name="adx登录页面">
-	<locator name="用户名输入框" type="css" value="input#login" timeout="5">usernameInputbox</locator>
+	<locator name="用户名输入框" type="css" value="input#login" timeout="6">usernameInputbox</locator>
 	<locator name="密码输入框" type="css" value="input#password" timeout="5">passwordInputbox</locator>	   
     <locator name="验证吗输入框" type="css" value="input#yzm" timeout="5">yzmInput</locator>
     <locator name="登录按钮" type="css" value="input#submit" timeout="5">loginButton</locator>
