@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="adx首页">
+	<locator name="欢迎登陆" type="css" value="div.login-success" timeout="5">welcomeDiv</locator>
+	<locator name="投放管理模块" type="partialLinkText" value="投放管理" timeout="5">投放管理</locator>
+		<locator name="广告主管理" type="partialLinkText" value="广告主管理" timeout="5">广告主管理</locator>
+		<locator name="新增广告主" type="css" value="a#add" timeout="5">addAdver</locator>
+		
+</page>

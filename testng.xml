@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" > 
+<suite name="testallsuite" verbose="1" > 
+	<test name="158adxtest" preserve-order="true" enabled="true"> 
+		<classes> 
+			<!-- 登录用例 -->
+			<class name="com.uiframe.testcases.PLogin" >
+<!-- 				<methods>
+					<include name="setUp" />
+					<include name="Login" />
+				</methods>	 -->
+			</class>
+			<!-- 新增广告主用例 -->	
+			<class name="com.uiframe.testcases.CreateAddAdver" >
+				<methods>
+					<include name="createAdVer" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	<listeners>
+    	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+       <!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />  -->
+     	<listener class-name="com.uiframe.testng.TestNGListener" /> 
+     	<listener class-name="com.uiframe.testng.RetryListener" />  
+
+	</listeners> 
+</suite>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加文档">
+  <locator name="文档标题" type="css" value="input#title" timeout="5">Documenttitle</locator>
+  <locator name="保存" type="css" value="button#submit" timeout="5">Savebutten</locator>
+  
+</page>

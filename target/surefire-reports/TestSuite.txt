@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 39.907 sec <<< FAILURE! - in TestSuite
+createAdver(com.uiframe.testcases.CreateAddAdver)  Time elapsed: 5.475 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="产品需求页面"><!-- 登录页面 -->
+    <locator name="产品名称显示框" type="css" value="div.panel-heading.nobr strong" timeout="5">productNameBox</locator>
+</page>

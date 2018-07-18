@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加产品"><!-- 产品页面 -->
+	    <locator name="产品名字" type="css" value="input#name" timeout="5">productName</locator>
+	    <locator name="产品代号" type="css" value="input#code" timeout="5">productCode</locator>
+	    <locator name="保存" type="css" value="button#submit" timeout="5">saveButton</locator>
+	    <locator name="所有产品" type="css" value="a[href='/zentao/product-all-4.html']" timeout="5">allProduct</locator>	    
+</page>

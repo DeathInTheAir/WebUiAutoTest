@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [testallsuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.uiframe.testng.TestNGListener"/>
+    <listener class-name="com.uiframe.testng.RetryListener"/>
+  </listeners>
+  <test name="158adxtest">
+    <classes>
+      <class name="com.uiframe.testcases.PLogin"/>
+      <class name="com.uiframe.testcases.CreateAddAdver">
+        <methods>
+          <include name="createAdVer"/>
+        </methods>
+      </class> <!-- com.uiframe.testcases.CreateAddAdver -->
+    </classes>
+  </test> <!-- 158adxtest -->
+  <test name="158adxtest(failed)">
+    <classes>
+      <class name="com.uiframe.testcases.CreateAddAdver">
+        <methods>
+          <include name="createAdver"/>
+        </methods>
+      </class> <!-- com.uiframe.testcases.CreateAddAdver -->
+      <class name="com.uiframe.testcases.PLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uiframe.testcases.PLogin -->
+    </classes>
+  </test> <!-- 158adxtest(failed) -->
+</suite> <!-- Failed suite [testallsuite] -->

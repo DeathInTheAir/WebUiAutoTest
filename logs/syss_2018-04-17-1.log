@@ -1,0 +1,165 @@
+2018-04-17 14:09:19,078 [main]---启动谷歌浏览器
+2018-04-17 14:09:19,429 [main]---LoginPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage.xml
+2018-04-17 14:09:21,122 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-17 14:09:21,173 [main]---元素【用户名输入框】识别成功
+2018-04-17 14:09:21,262 [main]---在元素【用户名输入框】中输入 admin
+2018-04-17 14:09:21,282 [main]---元素【密码输入框】识别成功
+2018-04-17 14:09:21,347 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-17 14:09:21,367 [main]---元素【验证码图片】识别成功
+2018-04-17 14:09:21,507 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:09:21,508 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:09:22,276 [main]---doOCR验证码识别结果:?
+2018-04-17 14:09:23,293 [main]---元素【验证吗输入框】识别成功
+2018-04-17 14:09:23,341 [main]---在元素【验证吗输入框】中输入 ?
+2018-04-17 14:09:23,361 [main]---元素【登录按钮】识别成功
+2018-04-17 14:09:23,983 [main]---点击元素【登录按钮】
+2018-04-17 14:09:23,984 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:09:24,032 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:24,405 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_24.png
+2018-04-17 14:09:24,410 [main]---截图成功！！！
+2018-04-17 14:09:24,925 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:25,199 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_24.png
+2018-04-17 14:09:25,202 [main]---截图成功！！！
+2018-04-17 14:09:25,713 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:25,986 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_25.png
+2018-04-17 14:09:25,989 [main]---截图成功！！！
+2018-04-17 14:09:26,501 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:26,773 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_26.png
+2018-04-17 14:09:26,775 [main]---截图成功！！！
+2018-04-17 14:09:27,287 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:27,577 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_27.png
+2018-04-17 14:09:27,579 [main]---截图成功！！！
+2018-04-17 14:09:28,092 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:28,375 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_28.png
+2018-04-17 14:09:28,378 [main]---截图成功！！！
+2018-04-17 14:09:28,890 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:09:29,162 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_09_28.png
+2018-04-17 14:09:29,164 [main]---截图成功！！！
+2018-04-17 14:09:29,166 [main]---测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'Login' 执行失败，重试第 1 次
+2018-04-17 14:09:29,169 [main]---LoginPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage.xml
+2018-04-17 14:09:29,532 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-17 14:09:29,554 [main]---元素【用户名输入框】识别成功
+2018-04-17 14:09:29,625 [main]---在元素【用户名输入框】中输入 admin
+2018-04-17 14:09:29,640 [main]---元素【密码输入框】识别成功
+2018-04-17 14:09:29,712 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-17 14:09:29,723 [main]---元素【验证码图片】识别成功
+2018-04-17 14:09:29,772 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:09:29,773 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:09:30,009 [main]---doOCR验证码识别结果:oeova
+2018-04-17 14:09:31,021 [main]---元素【验证吗输入框】识别成功
+2018-04-17 14:09:31,089 [main]---在元素【验证吗输入框】中输入 oeova
+2018-04-17 14:09:31,101 [main]---元素【登录按钮】识别成功
+2018-04-17 14:09:32,911 [main]---点击元素【登录按钮】
+2018-04-17 14:09:32,911 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:09:32,926 [main]---元素【欢迎登陆】识别成功
+2018-04-17 14:09:32,928 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:09:32,956 [main]---元素【投放管理模块】识别成功
+2018-04-17 14:09:33,015 [main]---点击元素【投放管理模块】
+2018-04-17 14:09:33,041 [main]---元素【广告主管理】识别成功
+2018-04-17 14:09:33,819 [main]---点击元素【广告主管理】
+2018-04-17 14:09:33,838 [main]---元素【新增广告主】识别成功
+2018-04-17 14:09:35,689 [main]---点击元素【新增广告主】
+2018-04-17 14:09:35,690 [main]---AddAdverPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\AddAdverPage.xml
+2018-04-17 14:09:35,716 [main]---元素【广告主名称】识别成功
+2018-04-17 14:09:38,791 [main]---用例执行完毕，关闭浏览器
+2018-04-17 14:31:09,303 [main]---启动谷歌浏览器
+2018-04-17 14:31:09,959 [main]---LoginPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage.xml
+2018-04-17 14:31:12,157 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-17 14:31:12,195 [main]---元素【用户名输入框】识别成功
+2018-04-17 14:31:12,282 [main]---在元素【用户名输入框】中输入 admin
+2018-04-17 14:31:12,305 [main]---元素【密码输入框】识别成功
+2018-04-17 14:31:12,368 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-17 14:31:12,391 [main]---元素【验证码图片】识别成功
+2018-04-17 14:31:12,520 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:12,520 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:13,903 [main]---doOCR验证码识别结果:m
+2018-04-17 14:31:14,920 [main]---元素【验证吗输入框】识别成功
+2018-04-17 14:31:14,966 [main]---在元素【验证吗输入框】中输入 m
+2018-04-17 14:31:14,987 [main]---元素【登录按钮】识别成功
+2018-04-17 14:31:15,444 [main]---点击元素【登录按钮】
+2018-04-17 14:31:15,445 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:31:15,492 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:15,838 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_15.png
+2018-04-17 14:31:15,842 [main]---截图成功！！！
+2018-04-17 14:31:16,356 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:16,631 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_16.png
+2018-04-17 14:31:16,634 [main]---截图成功！！！
+2018-04-17 14:31:17,148 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:17,418 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_17.png
+2018-04-17 14:31:17,421 [main]---截图成功！！！
+2018-04-17 14:31:17,935 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:18,226 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_17.png
+2018-04-17 14:31:18,229 [main]---截图成功！！！
+2018-04-17 14:31:18,742 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:19,014 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_18.png
+2018-04-17 14:31:19,017 [main]---截图成功！！！
+2018-04-17 14:31:19,531 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:19,801 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_19.png
+2018-04-17 14:31:19,804 [main]---截图成功！！！
+2018-04-17 14:31:20,316 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:20,588 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_20.png
+2018-04-17 14:31:20,591 [main]---截图成功！！！
+2018-04-17 14:31:20,593 [main]---测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'Login' 执行失败，重试第 1 次
+2018-04-17 14:31:20,597 [main]---LoginPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage.xml
+2018-04-17 14:31:21,059 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-17 14:31:21,079 [main]---元素【用户名输入框】识别成功
+2018-04-17 14:31:21,146 [main]---在元素【用户名输入框】中输入 admin
+2018-04-17 14:31:21,160 [main]---元素【密码输入框】识别成功
+2018-04-17 14:31:21,233 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-17 14:31:21,244 [main]---元素【验证码图片】识别成功
+2018-04-17 14:31:21,284 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:21,284 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:21,438 [main]---doOCR验证码识别结果:m
+2018-04-17 14:31:22,450 [main]---元素【验证吗输入框】识别成功
+2018-04-17 14:31:22,497 [main]---在元素【验证吗输入框】中输入 m
+2018-04-17 14:31:22,508 [main]---元素【登录按钮】识别成功
+2018-04-17 14:31:23,071 [main]---点击元素【登录按钮】
+2018-04-17 14:31:23,071 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:31:23,089 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:23,379 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_23.png
+2018-04-17 14:31:23,382 [main]---截图成功！！！
+2018-04-17 14:31:23,896 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:24,172 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_23.png
+2018-04-17 14:31:24,175 [main]---截图成功！！！
+2018-04-17 14:31:24,689 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:24,961 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_24.png
+2018-04-17 14:31:24,963 [main]---截图成功！！！
+2018-04-17 14:31:25,478 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:25,755 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_25.png
+2018-04-17 14:31:25,758 [main]---截图成功！！！
+2018-04-17 14:31:26,270 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:26,558 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_26.png
+2018-04-17 14:31:26,560 [main]---截图成功！！！
+2018-04-17 14:31:27,073 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:27,345 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_27.png
+2018-04-17 14:31:27,347 [main]---截图成功！！！
+2018-04-17 14:31:27,858 [main]---元素【欢迎登陆】识别不成功
+2018-04-17 14:31:28,130 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_17_14_31_27.png
+2018-04-17 14:31:28,133 [main]---截图成功！！！
+2018-04-17 14:31:28,133 [main]---测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'Login' 执行失败，重试第 2 次
+2018-04-17 14:31:28,135 [main]---LoginPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage.xml
+2018-04-17 14:31:28,499 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-17 14:31:28,526 [main]---元素【用户名输入框】识别成功
+2018-04-17 14:31:28,592 [main]---在元素【用户名输入框】中输入 admin
+2018-04-17 14:31:28,613 [main]---元素【密码输入框】识别成功
+2018-04-17 14:31:28,690 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-17 14:31:28,710 [main]---元素【验证码图片】识别成功
+2018-04-17 14:31:28,760 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:28,760 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-17 14:31:29,113 [main]---doOCR验证码识别结果:weti
+2018-04-17 14:31:30,132 [main]---元素【验证吗输入框】识别成功
+2018-04-17 14:31:30,193 [main]---在元素【验证吗输入框】中输入 weti
+2018-04-17 14:31:30,210 [main]---元素【登录按钮】识别成功
+2018-04-17 14:31:31,443 [main]---点击元素【登录按钮】
+2018-04-17 14:31:31,444 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:31:31,458 [main]---元素【欢迎登陆】识别成功
+2018-04-17 14:31:31,490 [main]---MainPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage.xml
+2018-04-17 14:31:31,516 [main]---元素【投放管理模块】识别成功
+2018-04-17 14:31:31,580 [main]---点击元素【投放管理模块】
+2018-04-17 14:31:31,607 [main]---元素【广告主管理】识别成功
+2018-04-17 14:31:32,298 [main]---点击元素【广告主管理】
+2018-04-17 14:31:32,319 [main]---元素【新增广告主】识别成功
+2018-04-17 14:31:34,005 [main]---点击元素【新增广告主】
+2018-04-17 14:31:34,006 [main]---AddAdverPage使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\AddAdverPage.xml
+2018-04-17 14:31:34,028 [main]---元素【广告主名称】识别成功
+2018-04-17 14:31:37,121 [main]---用例执行完毕，关闭浏览器

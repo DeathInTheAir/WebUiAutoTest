@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.907" tests="4" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Users\admin\workspace2\uiautotest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Users\admin\workspace2\uiautotest"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\apache-maven-3.3.9\bin;C:\Program Files (x86)\QuickTime Alternative\QTSystem;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\Program Files\apache-jmeter-4.0\bin;D:\Program Files\ffmpeg\bin;C:\Program Files\nodejs\;C:\Users\admin\AppData\Local\Android\android-sdk\tools;C:\Users\admin\AppData\Local\Android\android-sdk\platform-tools;C:\Users\admin\Anaconda3;C:\Users\admin\Anaconda3\Library\mingw-w64\bin;C:\Users\admin\Anaconda3\Library\usr\bin;C:\Users\admin\Anaconda3\Library\bin;C:\Users\admin\Anaconda3\Scripts;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Fiddler;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="D:\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Login" classname="com.uiframe.testcases.PLogin" time="10.676"/>
+  <testcase name="createAdver" classname="com.uiframe.testcases.CreateAddAdver" time="0">
+    <skipped/>
+    <system-out><![CDATA[2018-05-03 16:14:34,343 [main] INFO  [com.uiframe.testng.TestNGListener.onTestSuccess() Line: 35] - 【Login】测试用例执行成功
+2018-05-03 16:14:34,345 [main] INFO  [com.uiframe.testng.TestNGListener.onTestStart() Line: 29] - 【createAdver】测试用例开始执行
+2018-05-03 16:14:34,346 [main] INFO  [com.uiframe.baseframe.WebElementUtils.<init>() Line: 33] - MainPage使用元素文件xml：webElementInfos\MainPage.xml
+2018-05-03 16:14:34,376 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:34,892 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:35,405 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:35,919 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:36,433 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:36,946 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:37,460 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:37,974 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:38,488 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:39,000 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:39,515 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:39,516 [main] ERROR [com.uiframe.baseframe.WebElementUtils.findElement() Line: 55] - 【投放管理模块】识别失败：识别超时
+2018-05-03 16:14:39,793 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 96] - 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_39.png
+2018-05-03 16:14:39,797 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 99] - 截图成功！！！
+2018-05-03 16:14:39,798 [main] ERROR [com.uiframe.baseframe.WebElementUtils.click() Line: 99] - 不能点击【投放管理模块】原因是：java.lang.NullPointerException
+2018-05-03 16:14:39,800 [main] INFO  [com.uiframe.testng.TestngRetry.retry() Line: 20] - 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 1 次
+]]></system-out>
+  </testcase>
+  <testcase name="createAdver" classname="com.uiframe.testcases.CreateAddAdver" time="0">
+    <skipped/>
+    <system-out><![CDATA[2018-05-03 16:14:39,801 [main] ERROR [com.uiframe.testng.TestNGListener.onTestSkipped() Line: 48] - 【createAdver】测试用例被跳过
+2018-05-03 16:14:39,802 [main] INFO  [com.uiframe.testng.TestNGListener.onTestStart() Line: 29] - 【createAdver】测试用例开始执行
+2018-05-03 16:14:39,802 [main] INFO  [com.uiframe.baseframe.WebElementUtils.<init>() Line: 33] - MainPage使用元素文件xml：webElementInfos\MainPage.xml
+2018-05-03 16:14:39,827 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:40,340 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:40,854 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:41,369 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:41,883 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:42,399 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:42,912 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:43,426 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:43,940 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:44,454 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:44,970 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:44,971 [main] ERROR [com.uiframe.baseframe.WebElementUtils.findElement() Line: 55] - 【投放管理模块】识别失败：识别超时
+2018-05-03 16:14:45,324 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 96] - 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_44.png
+2018-05-03 16:14:45,328 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 99] - 截图成功！！！
+2018-05-03 16:14:45,328 [main] ERROR [com.uiframe.baseframe.WebElementUtils.click() Line: 99] - 不能点击【投放管理模块】原因是：java.lang.NullPointerException
+2018-05-03 16:14:45,329 [main] INFO  [com.uiframe.testng.TestngRetry.retry() Line: 20] - 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 2 次
+]]></system-out>
+  </testcase>
+  <testcase name="createAdver" classname="com.uiframe.testcases.CreateAddAdver" time="5.475">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+</failure>
+    <system-out><![CDATA[2018-05-03 16:14:45,329 [main] ERROR [com.uiframe.testng.TestNGListener.onTestSkipped() Line: 48] - 【createAdver】测试用例被跳过
+2018-05-03 16:14:45,330 [main] INFO  [com.uiframe.testng.TestNGListener.onTestStart() Line: 29] - 【createAdver】测试用例开始执行
+2018-05-03 16:14:45,330 [main] INFO  [com.uiframe.baseframe.WebElementUtils.<init>() Line: 33] - MainPage使用元素文件xml：webElementInfos\MainPage.xml
+2018-05-03 16:14:45,348 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:45,862 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:46,383 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:46,897 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:47,411 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:47,925 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:48,440 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:48,954 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:49,467 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:49,981 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:50,495 [main] ERROR [com.uiframe.baseframe.WebElementUtils.getElement() Line: 88] - 【投放管理模块】暂未找到，轮询中...
+2018-05-03 16:14:50,496 [main] ERROR [com.uiframe.baseframe.WebElementUtils.findElement() Line: 55] - 【投放管理模块】识别失败：识别超时
+2018-05-03 16:14:50,793 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 96] - 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_50.png
+2018-05-03 16:14:50,797 [main] INFO  [com.uiframe.baseframe.BrowserUtils.takeScreenShot() Line: 99] - 截图成功！！！
+2018-05-03 16:14:50,797 [main] ERROR [com.uiframe.baseframe.WebElementUtils.click() Line: 99] - 不能点击【投放管理模块】原因是：java.lang.NullPointerException
+]]></system-out>
+  </testcase>
+</testsuite>

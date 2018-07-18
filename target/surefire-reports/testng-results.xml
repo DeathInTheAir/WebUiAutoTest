@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[info] 测试初始化]]>
+    </line>
+    <line>
+      <![CDATA[[info] 实例化谷歌浏览器_ok]]>
+    </line>
+    <line>
+      <![CDATA[[info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【Login】测试用例开始执行]]>
+    </line>
+    <line>
+      <![CDATA[[info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[info] 打开网址：http://60.166.12.158:4077/login]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【用户名输入框】识别成功]]>
+    </line>
+    <line>
+      <![CDATA[[info] 在【用户名输入框】中输入 admin]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【密码输入框】识别成功]]>
+    </line>
+    <line>
+      <![CDATA[[info] 在【密码输入框】中输入 Xylx1.T]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【验证码图片】识别成功]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【验证吗输入框】识别成功]]>
+    </line>
+    <line>
+      <![CDATA[[info] 在【验证吗输入框】中输入 naic
+
+]]>
+    </line>
+    <line>
+      <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【欢迎登陆】识别失败：识别超时]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_34.png]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图成功！！！]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3105233181469357780.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<P style="font-size:1.1em;color:#1C9340"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：用例:1执行失败<br>[实际]：true　[预期]：true<br>└──────────────────────────────────────────────────────────────────┘</b></P>]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【检查点检查成功】  [实际]：true　[预期]：true]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【Login】测试用例执行成功]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【createAdver】测试用例开始执行]]>
+    </line>
+    <line>
+      <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_39.png]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图成功！！！]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3883613862586676262.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 1 次]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【createAdver】测试用例被跳过]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【createAdver】测试用例开始执行]]>
+    </line>
+    <line>
+      <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_44.png]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图成功！！！]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4629291821455521068.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 2 次]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【createAdver】测试用例被跳过]]>
+    </line>
+    <line>
+      <![CDATA[[info] 【createAdver】测试用例开始执行]]>
+    </line>
+    <line>
+      <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_50.png]]>
+    </line>
+    <line>
+      <![CDATA[[info] 截图成功！！！]]>
+    </line>
+    <line>
+      <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png">]]>
+    </line>
+    <line>
+      <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4698836634584536246.png]]>
+    </line>
+    <line>
+      <![CDATA[</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[[error] 【createAdver】测试用例执行失败]]>
+    </line>
+    <line>
+      <![CDATA[[info] 测试执行完毕]]>
+    </line>
+    <line>
+      <![CDATA[[info] 用例执行完毕，关闭浏览器]]>
+    </line>
+  </reporter-output>
+  <suite name="testallsuite" duration-ms="35773" started-at="2018-05-03T08:14:15Z" finished-at="2018-05-03T08:14:50Z">
+    <groups>
+    </groups>
+    <test name="158adxtest" duration-ms="35773" started-at="2018-05-03T08:14:15Z" finished-at="2018-05-03T08:14:50Z">
+      <class name="com.uiframe.testcases.CreateAddAdver">
+        <test-method status="SKIP" signature="createAdver()[pri:0, instance:com.uiframe.testcases.CreateAddAdver@6fd02e5]" name="createAdver" duration-ms="5453" started-at="2018-05-03T16:14:34Z" finished-at="2018-05-03T16:14:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_39.png]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图成功！！！]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3883613862586676262.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+            </line>
+            <line>
+              <![CDATA[[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 1 次]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【createAdver】测试用例被跳过]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdver -->
+        <test-method status="SKIP" signature="createAdver()[pri:0, instance:com.uiframe.testcases.CreateAddAdver@6fd02e5]" name="createAdver" duration-ms="5526" started-at="2018-05-03T16:14:39Z" finished-at="2018-05-03T16:14:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_44.png]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图成功！！！]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4629291821455521068.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+            </line>
+            <line>
+              <![CDATA[[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 2 次]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【createAdver】测试用例被跳过]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdver -->
+        <test-method status="FAIL" signature="createAdver()[pri:0, instance:com.uiframe.testcases.CreateAddAdver@6fd02e5]" name="createAdver" duration-ms="5468" started-at="2018-05-03T16:14:45Z" finished-at="2018-05-03T16:14:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【投放管理模块】识别失败：识别超时]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_50.png]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图成功！！！]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4698836634584536246.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【createAdver】测试用例执行失败]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdver -->
+      </class> <!-- com.uiframe.testcases.CreateAddAdver -->
+      <class name="com.uiframe.testcases.PLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uiframe.testcases.PLogin@5700d6b1]" name="setUp" is-config="true" duration-ms="8156" started-at="2018-05-03T16:14:15Z" finished-at="2018-05-03T16:14:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[info] 实例化谷歌浏览器_ok]]>
+            </line>
+            <line>
+              <![CDATA[[info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login(com.uiframe.utils.TestCaseBean)[pri:0, instance:com.uiframe.testcases.PLogin@5700d6b1]" name="Login" duration-ms="10684" started-at="2018-05-03T16:14:23Z" data-provider="loginData" finished-at="2018-05-03T16:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.uiframe.utils.TestCaseBean@4b3a45f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml]]>
+            </line>
+            <line>
+              <![CDATA[[info] 打开网址：http://60.166.12.158:4077/login]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【用户名输入框】识别成功]]>
+            </line>
+            <line>
+              <![CDATA[[info] 在【用户名输入框】中输入 admin]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【密码输入框】识别成功]]>
+            </line>
+            <line>
+              <![CDATA[[info] 在【密码输入框】中输入 Xylx1.T]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【验证码图片】识别成功]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【验证吗输入框】识别成功]]>
+            </line>
+            <line>
+              <![CDATA[[info] 在【验证吗输入框】中输入 naic
+
+]]>
+            </line>
+            <line>
+              <![CDATA[[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】暂未找到，轮询中...]]>
+            </line>
+            <line>
+              <![CDATA[[error] 【欢迎登陆】识别失败：识别超时]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_34.png]]>
+            </line>
+            <line>
+              <![CDATA[[info] 截图成功！！！]]>
+            </line>
+            <line>
+              <![CDATA[<a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png">]]>
+            </line>
+            <line>
+              <![CDATA[<img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3105233181469357780.png]]>
+            </line>
+            <line>
+              <![CDATA[</a><br />]]>
+            </line>
+            <line>
+              <![CDATA[<P style="font-size:1.1em;color:#1C9340"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：用例:1执行失败<br>[实际]：true　[预期]：true<br>└──────────────────────────────────────────────────────────────────┘</b></P>]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【检查点检查成功】  [实际]：true　[预期]：true]]>
+            </line>
+            <line>
+              <![CDATA[[info] 【Login】测试用例执行成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uiframe.testcases.PLogin@5700d6b1]" name="tearDown" is-config="true" duration-ms="3063" started-at="2018-05-03T16:14:50Z" finished-at="2018-05-03T16:14:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[info] 用例执行完毕，关闭浏览器]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uiframe.testcases.PLogin -->
+    </test> <!-- 158adxtest -->
+  </suite> <!-- testallsuite -->
+</testng-results>

@@ -1,0 +1,41 @@
+2018-04-11 17:25:44,441 [main]---测试初始化
+2018-04-11 17:25:44,475 [main]---【Login】测试用例开始执行
+2018-04-11 17:25:44,492 [main]---LoginPage_adx使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage_adx.xml
+2018-04-11 17:25:46,090 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-11 17:25:46,152 [main]---元素【用户名输入框】识别成功
+2018-04-11 17:25:46,231 [main]---在元素【用户名输入框】中输入 admin
+2018-04-11 17:25:46,264 [main]---元素【密码输入框】识别成功
+2018-04-11 17:25:46,339 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-11 17:25:46,364 [main]---元素【验证码图片】识别成功
+2018-04-11 17:25:46,515 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-11 17:25:46,516 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-11 17:25:47,632 [main]---doOCR验证码识别结果:E
+2018-04-11 17:25:48,652 [main]---元素【验证吗输入框】识别成功
+2018-04-11 17:25:48,714 [main]---在元素【验证吗输入框】中输入 E
+2018-04-11 17:25:48,737 [main]---元素【登录按钮】识别成功
+2018-04-11 17:25:49,139 [main]---点击元素【登录按钮】
+2018-04-11 17:25:49,141 [main]---MainPage_adx使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage_adx.xml
+2018-04-11 17:25:49,237 [main]---元素【欢迎登陆】识别不成功
+2018-04-11 17:25:49,666 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_11_17_25_49.png
+2018-04-11 17:25:49,746 [main]---截图成功！！！
+2018-04-11 17:25:49,769 [main]---测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'Login' 执行失败，重试第 1 次
+2018-04-11 17:25:49,773 [main]---【Login】测试用例被跳过
+2018-04-11 17:25:49,776 [main]---【Login】测试用例开始执行
+2018-04-11 17:25:49,776 [main]---LoginPage_adx使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\LoginPage_adx.xml
+2018-04-11 17:25:50,169 [main]---打开网址：http://60.166.12.158:4077/login
+2018-04-11 17:25:50,186 [main]---元素【用户名输入框】识别成功
+2018-04-11 17:25:50,268 [main]---在元素【用户名输入框】中输入 admin
+2018-04-11 17:25:50,283 [main]---元素【密码输入框】识别成功
+2018-04-11 17:25:50,369 [main]---在元素【密码输入框】中输入 Xylx1.T
+2018-04-11 17:25:50,384 [main]---元素【验证码图片】识别成功
+2018-04-11 17:25:50,444 [main]---验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
+2018-04-11 17:25:50,444 [main]---tessdata\vrCodeImage\codeImage.png
+2018-04-11 17:25:50,724 [main]---doOCR验证码识别结果:?
+2018-04-11 17:25:51,737 [main]---元素【验证吗输入框】识别成功
+2018-04-11 17:25:51,793 [main]---在元素【验证吗输入框】中输入 ?
+2018-04-11 17:25:51,808 [main]---元素【登录按钮】识别成功
+2018-04-11 17:25:52,249 [main]---点击元素【登录按钮】
+2018-04-11 17:25:52,250 [main]---MainPage_adx使用元素文件xml：D:\Users\admin\workspace2\uiautotest\webelementinfos\MainPage_adx.xml
+2018-04-11 17:25:52,275 [main]---元素【欢迎登陆】识别不成功
+2018-04-11 17:25:52,593 [main]---截图保存的路径为:D:\Users\admin\workspace2\uiautotest\screenshotimgs\error_2018_04_11_17_25_52.png
+2018-04-11 17:25:52,618 [main]---截图成功！！！

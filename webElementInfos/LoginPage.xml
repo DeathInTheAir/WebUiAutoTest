@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="adx登录页面">
+	<locator name="用户名输入框" type="css" value="input#login" timeout="5">usernameInputbox</locator>
+	<locator name="密码输入框" type="css" value="input#password" timeout="5">passwordInputbox</locator>	   
+    <locator name="验证吗输入框" type="css" value="input#yzm" timeout="5">yzmInput</locator>
+    <locator name="登录按钮" type="css" value="input#submit" timeout="5">loginButton</locator>
+    <locator name="验证码图片" type="css" value="img#img_yzm" timeout="5">yzmImage</locator>
+    <locator name="错误提示文字" type="css" value="font[color='red']" timeout="5">errorMessage</locator>
+</page>

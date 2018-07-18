@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="adx首页">
+	<locator name="广告主名称" type="css" value="input#name" timeout="5">adverName</locator>
+</page>

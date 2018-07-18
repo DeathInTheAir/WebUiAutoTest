@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testallsuite">
+              <span class="suite-name border-failed">testallsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testallsuite">
+                    <span>D:\Users\admin\workspace2\uiautotest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testallsuite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testallsuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testallsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testallsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testallsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testallsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testallsuite" class="hide-methods failed suite-testallsuite"> (hide)</a> <!-- hide-methods failed suite-testallsuite -->
+                      <a href="#" panel-name="suite-testallsuite" class="show-methods failed suite-testallsuite"> (show)</a> <!-- show-methods failed suite-testallsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-testallsuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testallsuite" title="com.uiframe.testcases.CreateAddAdver" hash-for-method="createAdver">createAdver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testallsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-testallsuite" class="hide-methods skipped suite-testallsuite"> (hide)</a> <!-- hide-methods skipped suite-testallsuite -->
+                      <a href="#" panel-name="suite-testallsuite" class="show-methods skipped suite-testallsuite"> (show)</a> <!-- show-methods skipped suite-testallsuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-testallsuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testallsuite" title="com.uiframe.testcases.CreateAddAdver" hash-for-method="createAdver">createAdver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testallsuite" title="com.uiframe.testcases.CreateAddAdver" hash-for-method="createAdver">createAdver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-testallsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testallsuite" class="hide-methods passed suite-testallsuite"> (hide)</a> <!-- hide-methods passed suite-testallsuite -->
+                      <a href="#" panel-name="suite-testallsuite" class="show-methods passed suite-testallsuite"> (show)</a> <!-- show-methods passed suite-testallsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testallsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testallsuite" title="com.uiframe.testcases.PLogin" hash-for-method="Login(com.uiframe.utils.TestCaseBean@4b3a45f1)">Login(com.uiframe.utils.TestCaseBean@4b3a45f1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testallsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testallsuite" class="panel testallsuite">
+          <div class="suite-testallsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.uiframe.testcases.CreateAddAdver</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAdver">
+                  </a> <!-- createAdver -->
+                  <span class="method-name">createAdver</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testallsuite-class-failed -->
+          <div class="suite-testallsuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.uiframe.testcases.CreateAddAdver</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAdver">
+                  </a> <!-- createAdver -->
+                  <span class="method-name">createAdver</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAdver">
+                  </a> <!-- createAdver -->
+                  <span class="method-name">createAdver</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.uiframe.baseframe.WebElementUtils.click(WebElementUtils.java:100)
+	at com.uiframe.pages.MainPage.clickMdbuyManag(MainPage.java:24)
+	at com.uiframe.actions.MainPageAction.inAddAdverPage(MainPageAction.java:26)
+	at com.uiframe.testcases.CreateAddAdver.createAdver(CreateAddAdver.java:52)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testallsuite-class-skipped -->
+          <div class="suite-testallsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uiframe.testcases.PLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(com.uiframe.utils.TestCaseBean@4b3a45f1)">
+                  </a> <!-- Login(com.uiframe.utils.TestCaseBean@4b3a45f1) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(com.uiframe.utils.TestCaseBean@4b3a45f1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testallsuite-class-passed -->
+        </div> <!-- panel testallsuite -->
+        <div panel-name="test-xml-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Users\admin\workspace2\uiautotest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;testallsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.uiframe.testng.TestNGListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.uiframe.testng.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;158adxtest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.uiframe.testcases.PLogin&quot;/&gt;
+      &lt;class name=&quot;com.uiframe.testcases.CreateAddAdver&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createAdVer&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.uiframe.testcases.CreateAddAdver --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 158adxtest --&gt;
+  &lt;test name=&quot;158adxtest(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.uiframe.testcases.CreateAddAdver&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;createAdver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.uiframe.testcases.CreateAddAdver --&gt;
+      &lt;class name=&quot;com.uiframe.testcases.PLogin&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.uiframe.testcases.PLogin --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 158adxtest(failed) --&gt;
+&lt;/suite&gt; &lt;!-- testallsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testallsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">158adxtest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">158adxtest(failed) (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testallsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testallsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testallsuite');
+function tableData_testallsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login')
+data.setCell(0, 2, 'com.uiframe.testcases.PLogin')
+data.setCell(0, 3, 10684);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createAdver')
+data.setCell(1, 2, 'com.uiframe.testcases.CreateAddAdver')
+data.setCell(1, 3, 5526);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAdver')
+data.setCell(2, 2, 'com.uiframe.testcases.CreateAddAdver')
+data.setCell(2, 3, 5468);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createAdver')
+data.setCell(3, 2, 'com.uiframe.testcases.CreateAddAdver')
+data.setCell(3, 3, 5453);
+window.suiteTableData['testallsuite']= { tableData: data, tableDiv: 'times-div-testallsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-testallsuite">
+              </div> <!-- times-div-testallsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testallsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login(com.uiframe.utils.TestCaseBean@4b3a45f1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml</span>
+                <span class="reporter-method-output">[info] 打开网址：http://60.166.12.158:4077/login</span>
+                <span class="reporter-method-output">[info] 【用户名输入框】识别成功</span>
+                <span class="reporter-method-output">[info] 在【用户名输入框】中输入 admin</span>
+                <span class="reporter-method-output">[info] 【密码输入框】识别成功</span>
+                <span class="reporter-method-output">[info] 在【密码输入框】中输入 Xylx1.T</span>
+                <span class="reporter-method-output">[info] 【验证码图片】识别成功</span>
+                <span class="reporter-method-output">[info] 【验证吗输入框】识别成功</span>
+                <span class="reporter-method-output">[info] 在【验证吗输入框】中输入 naic
+
+</span>
+                <span class="reporter-method-output">[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【欢迎登陆】识别失败：识别超时</span>
+                <span class="reporter-method-output">[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_34.png</span>
+                <span class="reporter-method-output">[info] 截图成功！！！</span>
+                <span class="reporter-method-output"><a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png"></span>
+                <span class="reporter-method-output"><img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_34.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3105233181469357780.png</span>
+                <span class="reporter-method-output"></a><br /></span>
+                <span class="reporter-method-output"><P style="font-size:1.1em;color:#1C9340"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：用例:1执行失败<br>[实际]：true　[预期]：true<br>└──────────────────────────────────────────────────────────────────┘</b></P></span>
+                <span class="reporter-method-output">[info] 【检查点检查成功】  [实际]：true　[预期]：true</span>
+                <span class="reporter-method-output">[info] 【Login】测试用例执行成功</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createAdver</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】识别失败：识别超时</span>
+                <span class="reporter-method-output">[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_50.png</span>
+                <span class="reporter-method-output">[info] 截图成功！！！</span>
+                <span class="reporter-method-output"><a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png"></span>
+                <span class="reporter-method-output"><img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_50.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4698836634584536246.png</span>
+                <span class="reporter-method-output"></a><br /></span>
+                <span class="reporter-method-output">[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException</span>
+                <span class="reporter-method-output">[error] 【createAdver】测试用例执行失败</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createAdver</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】识别失败：识别超时</span>
+                <span class="reporter-method-output">[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_44.png</span>
+                <span class="reporter-method-output">[info] 截图成功！！！</span>
+                <span class="reporter-method-output"><a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png"></span>
+                <span class="reporter-method-output"><img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_44.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot4629291821455521068.png</span>
+                <span class="reporter-method-output"></a><br /></span>
+                <span class="reporter-method-output">[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException</span>
+                <span class="reporter-method-output">[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 2 次</span>
+                <span class="reporter-method-output">[error] 【createAdver】测试用例被跳过</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createAdver</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[info] MainPage使用元素文件xml：webElementInfos\MainPage.xml</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】暂未找到，轮询中...</span>
+                <span class="reporter-method-output">[error] 【投放管理模块】识别失败：识别超时</span>
+                <span class="reporter-method-output">[info] 截图保存的路径为:screenshotImgs\error_2018_05_03_16_14_39.png</span>
+                <span class="reporter-method-output">[info] 截图成功！！！</span>
+                <span class="reporter-method-output"><a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png"></span>
+                <span class="reporter-method-output"><img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_16_14_39.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot3883613862586676262.png</span>
+                <span class="reporter-method-output"></a><br /></span>
+                <span class="reporter-method-output">[error] 不能点击【投放管理模块】原因是：java.lang.NullPointerException</span>
+                <span class="reporter-method-output">[info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'createAdver' 执行失败，重试第 1 次</span>
+                <span class="reporter-method-output">[error] 【createAdver】测试用例被跳过</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testallsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiframe.testcases.PLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Login(com.uiframe.utils.TestCaseBean@4b3a45f1)</span>
+                <span class="method-start">8173 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiframe.testcases.CreateAddAdver</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAdver</span>
+                <span class="method-start">18861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createAdver</span>
+                <span class="method-start">24318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAdver</span>
+                <span class="method-start">29845 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uiframe.testcases.PLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35351 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

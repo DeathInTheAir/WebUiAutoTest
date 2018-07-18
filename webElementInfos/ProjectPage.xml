@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加产品"><!-- 产品页面 -->
+	    <locator name="添加项目" type="css" value="a[href='/zentao/project-create.html']" timeout="5">addProjectLink</locator>
+	   
+</page>

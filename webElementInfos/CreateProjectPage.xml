@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加项目">
+        <locator name="复制项目" type="css" value="button#cpmBtn" timeout="2">copyProject</locator>
+	    <locator name="项目名称" type="css" value="input#name" timeout="2">projectName</locator>
+	    <locator name="项目代号" type="css" value="input#code" timeout="2">projectCode</locator>
+	    <locator name="起始日期" type="css" value="input#begin" timeout="2">rangeBegin</locator>
+	    <locator name="结束日期" type="css" value="input#end" timeout="2">RangeEnd</locator>
+	    <locator name="一星期" type="css" value="input#delta7" timeout="2">RangeOneWeeks</locator>
+	    <locator name="两星期" type="css" value="input#delta14" timeout="2">RangeTwoWeeks</locator>
+	    <locator name="一个月" type="css" value="input#delta31" timeout="2">RangeOneMonth</locator>
+	    <locator name="两个月" type="css" value="input#delta62" timeout="2">RangeTwoMonths</locator>
+	    <locator name="三个月" type="css" value="input#delta93" timeout="2">RangeThreeMonths</locator>
+	    <locator name="半年" type="css" value="input#delta186" timeout="2">RangeHalfOfYear</locator>
+	    <locator name="一年" type="css" value="input#delta365" timeout="2">RangeOneYear</locator>
+	    <locator name="可用工作日" type="css" value="input#days" timeout="2">Workdays</locator>
+	    <locator name="团队名称" type="css" value="input#team" timeout="2">teamName</locator>
+	    <locator name="项目类型" type="css" value="select#type" timeout="2">type</locator>
+	    <locator name="关联产品" type="css" value="a.chosen-single chosen-default" timeout="2">linkProduct</locator>
+	    <locator name="项目描述" type="css" value="iframe.ke-edit-iframe>html>body" timeout="2">desc</locator>
+	    <locator name="保存" type="css" value="button#submit" timeout="2">save</locator>
+	    <locator name="返回" type="css" value="a[href='javascript:history.go(-1);']" timeout="2">back</locator>
+	    <locator name="关闭提示框" type="css" value="a.close" timeout="2">close</locator>
+	    <locator name="项目添加成功提示框" type="css" value="h6" timeout="5">notice</locator>
+</page>
