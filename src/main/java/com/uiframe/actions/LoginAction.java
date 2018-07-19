@@ -26,9 +26,9 @@ public class LoginAction {
 	public static  MainPage login(String name,String passwd){
 		loginPage = new LoginPage(getDriver());
 		loginPage.openUrl(Config.PROJECT_URL);
-		loginPage.inputUserName(name);
-		loginPage.inputPasswd(passwd);
-		loginPage.inputVerificationCode();
+//		loginPage.inputUserName(name);
+//		loginPage.inputPasswd(passwd);
+//		loginPage.inputVerificationCode();
 		
 		return new MainPage(getDriver());
 	}

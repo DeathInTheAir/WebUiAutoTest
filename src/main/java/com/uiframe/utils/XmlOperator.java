@@ -33,7 +33,8 @@ public class XmlOperator {
 				String v = element.attributeValue("value");
 				int time = Integer.parseInt(element.attributeValue("timeout"));
 				String by = element.attributeValue("type");
-				locator = new LocatorBean(n,by,v,time);
+				String eleType = element.attributeValue("eletype");
+				locator = new LocatorBean(n,by,v,time, eleType);
 				elementInfos.put(text, locator);
 			}
 		} catch (DocumentException e) {

@@ -21,7 +21,8 @@ import com.uiframe.utils.XmlOperator;
 
 public class WebElementUtils extends BrowserUtils{
 	
-	protected Map<String,LocatorBean> locatorMap;
+	public Map<String,LocatorBean> locatorMap;
+
 	protected String path = null;
 	
 	
@@ -37,24 +38,22 @@ public class WebElementUtils extends BrowserUtils{
 		return locator;
 	}
 	
-	public WebElement findElement(LocatorBean locator){  //显式等待
+	public WebElement findElement(LocatorBean locator) { // 显式等待
 		WebDriverWait wait = new WebDriverWait(driver, locator.getTimeOut());
 		WebElement el = null;
-		try{	
-			el = wait.until(
-					new ExpectedCondition<WebElement>() {  
-						@Override  
-						public WebElement apply(WebDriver d) { 
-							return getElement(d,locator); 
-							}							 
-						}  
-				);
-	}catch(Exception e){
-		LoggerUtil.error("【"+locator.getElementName()+"】识别失败：识别超时");	
-		takeScreenShot("error");		
-	}
+		try {
+			el = wait.until(new ExpectedCondition<WebElement>() {
+				@Override
+				public WebElement apply(WebDriver d) {
+					return getElement(d, locator);
+				}
+			});
+		} catch (Exception e) {
+			LoggerUtil.error("【" + locator.getElementName() + "】识别失败：识别超时");
+			takeScreenShot("error");
+		}
 		return el;
-}
+	}
 	
 	public WebElement getElement(WebDriver dr,LocatorBean locator){
 		/*
@@ -83,7 +82,7 @@ public class WebElementUtils extends BrowserUtils{
 			}
 			LoggerUtil.info("【"+locator.getElementName()+"】识别成功");
 		}catch(Exception e){
-			LoggerUtil.error("【"+locator.getElementName()+"】暂未找到，轮询中...");
+			LoggerUtil.info("【"+locator.getElementName()+"】暂未找到，轮询中...");
 		}
 		return el;
 	}

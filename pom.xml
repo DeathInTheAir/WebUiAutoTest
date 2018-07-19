@@ -134,7 +134,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                 	<!-- <properpties>
+                 	<properpties>
 	                 	<property>
 	                 		<name>usedefaultlisteners</name>
 	                 		<value>false</value>
@@ -145,10 +145,10 @@
 	                 		<value>org.uncommons.reportng.HTMLReporter</value>
 	                 		<value>com.uiframe.testng.TestNGListener</value>	
 	                 	</property>
-                 	</properpties> -->
-                <!-- 	<workingDirectory>target/</workingDirectory> -->
-                <!-- 	<source>1.8</source>
-					<target>1.8</target> -->
+                 	</properpties> 
+                <workingDirectory>target/</workingDirectory>
+                <source>1.8</source>
+					<target>1.8</target> 
                 </configuration>
   		</plugin>
   	</plugins>

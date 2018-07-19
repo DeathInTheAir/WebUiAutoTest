@@ -6,12 +6,14 @@ public class LocatorBean {
 	private String by;
 	private String locatorInfo;
 	private int timeOut;
+	private String eleType;
 	
-	public LocatorBean(String en,String by,String li,int time){
+	public LocatorBean(String en,String by,String li,int time, String eleType){
 		this.elementName = en;
 		this.by = by;
 		this.locatorInfo = li;
 		this.timeOut = time;
+		this.eleType = eleType;
 	}
 	
 	public String getElementName() {
@@ -25,6 +27,9 @@ public class LocatorBean {
 	}
 	public int getTimeOut() {
 		return timeOut;
+	}
+	public String getEleType() {
+		return eleType;
 	}
 	
 	
