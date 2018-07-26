@@ -47,7 +47,7 @@ public class CreateAddAdver {
   @Test
   //新建广告主
   public void createAdver() {
-		driver = PLogin.driver;
+//		driver = PLogin.driver;
 	  MainPageAction.setDriver(driver);
 	  addAdverPage =  MainPageAction.inAddAdverPage();
 	  //尝试寻找广告主模块，断言是否登录成功

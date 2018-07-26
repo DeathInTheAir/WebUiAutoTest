@@ -1,8 +1,5 @@
 package com.uiframe.samples;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Snippet {
 	public static void main(String[] args){
 //		List<Object> a = testWrap();

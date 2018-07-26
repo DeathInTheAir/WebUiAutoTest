@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [testallsuite]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [testallsuite]" parallel="tests">
+  <parameter name="explorerName" value="firefox"/>
+  <parameter name="pnumber" value="15000219169"/>
+  <parameter name="pwd" value="aa123456,"/>
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="com.uiframe.testng.TestNGListener"/>
     <listener class-name="com.uiframe.testng.RetryListener"/>
   </listeners>
   <test name="158adxtest">
+    <parameter name="explorerName" value="firefox"/>
+    <parameter name="pnumber" value="15000219168"/>
+    <parameter name="pwd" value="aa123456,"/>
     <classes>
-      <class name="com.uiframe.testcases.PLogin"/>
-      <class name="com.uiframe.testcases.CreateAddAdver">
-        <methods>
-          <include name="createAdVer"/>
-        </methods>
-      </class> <!-- com.uiframe.testcases.CreateAddAdver -->
+      <class name="com.uiframe.testcases.LoginCase"/>
     </classes>
   </test> <!-- 158adxtest -->
-  <test name="158adxtest(failed)">
+  <test name="2">
+    <parameter name="explorerName" value="firefox"/>
+    <parameter name="pnumber" value="15000219169"/>
+    <parameter name="pwd" value="aa123456,"/>
     <classes>
-      <class name="com.uiframe.testcases.CreateAddAdver">
-        <methods>
-          <include name="createAdver"/>
-        </methods>
-      </class> <!-- com.uiframe.testcases.CreateAddAdver -->
-      <class name="com.uiframe.testcases.PLogin">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.uiframe.testcases.PLogin -->
+      <class name="com.uiframe.testcases.LoginCase"/>
     </classes>
-  </test> <!-- 158adxtest(failed) -->
+  </test> <!-- 2 -->
 </suite> <!-- Failed suite [testallsuite] -->

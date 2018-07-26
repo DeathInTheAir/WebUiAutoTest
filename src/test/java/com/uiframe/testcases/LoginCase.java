@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.uiframe.actions.LoginAction;
@@ -21,12 +23,15 @@ public class LoginCase {
 	static WebDriver driver;
 	LoginPage loginPage;
 	Map<String,TestCaseBean> caseMap;
+	WebDriverFactory driverF ;
 	
-	@BeforeSuite
-	public void setUp() {
-		
+	@Parameters("explorerName")	
+	@Test
+	public void asetUp(@Optional("firefox") String explorerName) {
+		Thread.currentThread().setName(explorerName);
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
-		driver = WebDriverFactory.getBrowser("firefox");
+		driverF = new WebDriverFactory();
+		driver = driverF.getBrowser(explorerName);
 		loginPage = new LoginPage(driver);
 		loginPage.openUrl("http://hizhubang.hizhu.com");
 
@@ -49,14 +54,14 @@ public class LoginCase {
 //		return data;
 //	}
 
+	@Parameters({"pnumber","pwd"})	
 	@Test
 	// 登录
-	public void Login() {
-		
+	public void login(String pnumber, String pwd) {
+
 //		loginPage.getEle("usernameInputbox").click();
-		WebElement we = loginPage.getEle("usernameInputbox");
-		we.sendKeys("15000219168");
-		loginPage.getEle("passwordInputbox").sendKeys("aa123456,");
+		loginPage.getEle("usernameInputbox").sendKeys(pnumber);
+		loginPage.getEle("passwordInputbox").sendKeys(pwd);
 //		mainPage = LoginAction.login(testCase.getJsonValue("username"), testCase.getJsonValue("passwd"));
 
 		// 尝试寻找欢迎模块，断言是否登录成功

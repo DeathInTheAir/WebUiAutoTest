@@ -15,9 +15,9 @@ import com.uiframe.utils.LoggerUtil;
 
 public class WebDriverFactory {
 	
-	private static WebDriver driver;
+	private  WebDriver driver;
 	
-	public static WebDriver  getBrowser(){
+	public  WebDriver  getBrowser(){
 		if(Config.DRIVER_TYPE == 1)
 			driver = getChrome();
 		else if(Config.DRIVER_TYPE == 2)
@@ -25,7 +25,7 @@ public class WebDriverFactory {
 		return driver;
 	}
 	
-	public static WebDriver getBrowser(String bname){
+	public  WebDriver getBrowser(String bname){
 		if(bname.equalsIgnoreCase("chrome"))
 			driver = getChrome();
 		else if(bname.equalsIgnoreCase("firefox"))
@@ -33,7 +33,7 @@ public class WebDriverFactory {
 		return driver;
 	}
 	
-	public static WebDriver getChrome(){
+	public  WebDriver getChrome(){
 		try{
 			String path =Config.CHROME_DRIVER;
 			System.setProperty("webdriver.chrome.driver", path);
@@ -52,7 +52,7 @@ public class WebDriverFactory {
 		return driver;
 	}
 	
-	public static WebDriver getFireFox(){
+	public  WebDriver getFireFox(){
 		String path = Config.GECKO_DRIVER;
 		System.setProperty("webdriver.gecko.driver", path);
 		driver = new FirefoxDriver();

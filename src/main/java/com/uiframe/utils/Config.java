@@ -21,13 +21,15 @@ public class Config {
 	public static String getPro(String key){
 		Properties pps = new Properties();
 		String filepath = System.getProperty("user.dir")+"\\configs\\selenium.properties";
+//		String filepath = "D:\\backup_gby\\workspace2\\uiautotest\\configs\\selenium.properties";
 		String value = null;
 		try{
 			InputStream in= new BufferedInputStream(new FileInputStream(filepath));
 			pps.load(in);
 			value = pps.getProperty(key);
+			LoggerUtil.debug(key+":"+value);
 		}catch(Exception e){
-			
+			LoggerUtil.error(e.getMessage());
 		}
 		return value;
 	}

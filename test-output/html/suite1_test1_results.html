@@ -3,72 +3,167 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Default test</title>
+  <title>Test Results Report - 2</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Default test</h1>
+<h1>2</h1>
 <p>
-  Test duration: 32.669s
+  Test duration: 5.957s
 </p>
 
 
 
-
-
   <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.uiframe.testcases.PLogin</td>
+        <td colspan="3" class="group">com.uiframe.testcases.LoginCase</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Login
+                  login
       </td>
   <td class="duration">
-    24.856s
+    0.046s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">com.uiframe.utils.TestCaseBean@75e91545</span><br />
+          <i>Method arguments: </i><span class="arguments">"15000219169", "aa123456,"</span><br />
     
             <div class="testOutput">
-                        [info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml
-                                [info] 打开网址：http://60.166.12.158:4077/login
-                                [info] 【用户名输入框】识别成功
-                                [info] 在【用户名输入框】中输入 admin
-                                [info] 【密码输入框】识别成功
-                                [info] 在【密码输入框】中输入 Xylx1.T
-                                [info] 【验证码图片】识别成功
-                                [info] 验证码图片截图保存成功：tessdata\vrCodeImage\codeImage.png
-                                [debug] tessdata\vrCodeImage\codeImage.png
-                                [info] doOCR验证码识别结果:
-                                [info] 【验证吗输入框】识别成功
-                                [info] 在【验证吗输入框】中输入 
-                                [info] MainPage使用元素文件xml：webElementInfos\MainPage.xml
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】暂未找到，轮询中...
-                                [error] 【欢迎登陆】识别失败：识别超时
-                                [info] 截图保存的路径为:screenshotImgs\error_2018_05_03_20_44_44.png
-                                [info] 截图成功！！！
-                                <a target='_blank' href="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_20_44_44.png">
-                                <img width="350" src="file:D:\Users\admin\workspace2\uiautotest\screenshotImgs\error_2018_05_03_20_44_44.png" />    截图：C:\Users\admin\AppData\Local\Temp\screenshot6951826263004933108.png
-                                </a><br />
-                                <P style="font-size:1.1em;color:#1C9340"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：用例:1执行失败<br>[实际]：true　[预期]：true<br>└──────────────────────────────────────────────────────────────────┘</b></P>
-                                [info] 【检查点检查成功】  [实际]：true　[预期]：true
+                        [info] 【用户名输入框】识别成功
+                                [error] 【login】测试用例执行失败
+                                [error] 【login】测试用例执行失败
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;<br/>
+&nbsp; (Session info: chrome=66.0.3359.181)<br/>
+&nbsp; (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;<br/>
+System info: host: &apos;桂宝元&apos;, ip: &apos;192.168.10.91&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.31.488763 (092de99f48a300..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}<br/>
+Session ID: 6f432460566b41d5a865e03f1e99cfa3</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)<br />
+              org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)<br />
+              com.uiframe.testcases.LoginCase.login(LoginCase.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:967)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.uiframe.testcases.LoginCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"15000219169", "aa123456,"</span><br />
+    
+            <div class="testOutput">
+                        [info] 【用户名输入框】识别成功
+                                [info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'login' 执行失败，重试第 2 次
+                                [error] 【login】测试用例被跳过
+                                [error] 【login】测试用例被跳过
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  login
+      </td>
+  <td class="duration">
+    0.222s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"15000219169", "aa123456,"</span><br />
+    
+            <div class="testOutput">
+                        [info] 【用户名输入框】识别成功
+                                [info] 测试类：'com.uiframe.testng.TestngRetry' 中的测试方法：'login' 执行失败，重试第 1 次
+                                [error] 【login】测试用例被跳过
+                                [error] 【login】测试用例被跳过
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.uiframe.testcases.LoginCase</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  asetUp
+      </td>
+  <td class="duration">
+    5.643s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"chrome"</span><br />
+    
+            <div class="testOutput">
+                        [info] 实例化谷歌浏览器_ok
+                                [info] LoginPage使用元素文件xml：webElementInfos\LoginPage.xml
+                                [info] 打开网址：http://hizhubang.hizhu.com
+                                [info] 【asetUp】测试用例执行成功
+                                [info] 【asetUp】测试用例执行成功
                   </div>
     
 

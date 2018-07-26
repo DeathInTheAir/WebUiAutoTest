@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" > 
-<suite name="testallsuite" verbose="1" > 
-	<test name="158adxtest" preserve-order="true" enabled="true"> 
-		<classes> 
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="testallsuite"  parallel="tests">
+
+	<test name="158adxtest"  enabled="true" >
+		<parameter name="explorerName" value="firefox"/>
+		<parameter name="pnumber" value="15000219168" />
+		<parameter name="pwd" value="aa123456," />
+		<classes >
 			<!-- 登录用例 -->
-			<class name="com.uiframe.testcases.PLogin" >
-<!-- 				<methods>
-					<include name="setUp" />
-					<include name="Login" />
-				</methods>	 -->
+			<class name="com.uiframe.testcases.LoginCase" >
 			</class>
-			<!-- 新增广告主用例 -->	
-			<class name="com.uiframe.testcases.CreateAddAdver" >
-				<methods>
-					<include name="createAdVer" />
-				</methods>
-			</class>
-			
+			<!-- 新增广告主用例 -->
+			<!-- <class name="com.uiframe.testcases.CreateAddAdver" > -->
+			<!-- <methods> -->
+			<!-- <include name="createAdVer" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+
 		</classes>
 	</test>
-	<listeners>
-    	<listener class-name="org.uncommons.reportng.HTMLReporter" />
-       <!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />  -->
-     	<listener class-name="com.uiframe.testng.TestNGListener" /> 
-     	<listener class-name="com.uiframe.testng.RetryListener" />  
+	<test name="2">
+		<parameter name="explorerName" value="chrome"/>
+		<parameter name="pnumber" value="15000219169" />
+		<parameter name="pwd" value="aa123456," />
+		<classes >
+			<class name="com.uiframe.testcases.LoginCase"  />
+		</classes>
 
-	</listeners> 
+	</test>
+
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.uiframe.testng.TestNGListener" />
+		<listener class-name="com.uiframe.testng.RetryListener" />
+
+	</listeners>
 </suite>

@@ -7,11 +7,11 @@ import com.uiframe.baseframe.WebDriverFactory;
 
 public class boowser {
 
-	public static void main(String[] args) {
-		WebDriver driver = WebDriverFactory.getBrowser();
-		BrowserUtils browser = new BrowserUtils(driver);
-		browser.openUrl("https://www.baidu.com");
-
-	}
+//	public static void main(String[] args) {
+//		WebDriver driver = WebDriverFactory.getBrowser();
+//		BrowserUtils browser = new BrowserUtils(driver);
+//		browser.openUrl("https://www.baidu.com");
+//
+//	}
 
 }

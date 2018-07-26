@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 encoding//configs/selenium.properties=UTF-8
-encoding//logs/syss_2018-04-11-2.log=ISO-8859-1
 encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
+encoding//target/surefire-reports/emailable-report.html=UTF-8
 encoding/<project>=UTF-8

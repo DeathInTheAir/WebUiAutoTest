@@ -1,5 +1,6 @@
 com\uiframe\utils\ElementShot.class
 com\uiframe\utils\AssertUtils.class
+com\uiframe\samples\TryAndCatch_return.class
 com\uiframe\samples\JD.class
 com\uiframe\testng\RetryListener.class
 com\uiframe\samples\B.class
@@ -39,6 +40,7 @@ com\uiframe\testng\TestNGListener.class
 com\uiframe\samples\FastJsonTest$Device.class
 com\uiframe\baseframe\WebElementUtils$1.class
 com\uiframe\baseframe\WebElementUtils.class
+com\uiframe\samples\WebShotTest.class
 com\uiframe\actions\LoginAction.class
 com\uiframe\actions\MainPageAction.class
 com\uiframe\testng\TestngRetry.class

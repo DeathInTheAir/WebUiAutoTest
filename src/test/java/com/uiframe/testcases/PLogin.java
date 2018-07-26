@@ -34,7 +34,7 @@ public class PLogin {
 	@BeforeTest
 	public void setUp(){
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
-		driver = WebDriverFactory.getBrowser();
+//		driver = WebDriverFactory.getBrowser();
 		s = ExeclOperator.getTestData("testdata.xls");
 		loginPage = new LoginPage(driver);
 		System.out.println(s.get("1"));
